@@ -37,7 +37,7 @@ public class Main extends Activity {
 			progressDialog.dismiss();
 		}
 	};
-	
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -96,8 +96,6 @@ public class Main extends Activity {
 		ListView lv = (ListView) findViewById(R.id.lstData);
 		lv.setAdapter(sAdapter);
 	}
-
-	
 
 	private void loadData() {
 		progressDialog = ProgressDialog.show(Main.this, "",
